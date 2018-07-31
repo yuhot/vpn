@@ -2914,5 +2914,5 @@ while True:
                 thread1 = threading.Thread(target=RIDEN_FAST_USER, args=(fast,))#self.OpInterrupt[fast.type], args=(fast,)
                 thread1.start()
                 thread1.join()
-    except Exception as RIDEN:
-        logError(RIDEN)
+    except Exception as error:
+        print (error)
