@@ -22,7 +22,7 @@ HOW TO RUN VIA VPS ( VIRTUAL PRIVATE SERVER )
 17. pip3 install youtube_dl
 18. pip3 install ffmpy
 19. cd RIDEN-RFU-
-20. python3 RIDEN.py
+20. python3 RIDEN_SB.py
 
 
 HOW TO RUN VIA TERMUX ( TERMINAL LINUX )
@@ -46,7 +46,7 @@ HOW TO RUN VIA TERMUX ( TERMINAL LINUX )
 18. pip3 install youtube_dl
 19. pip3 install ffmpy
 20. cd RIDEN-RFU-
-21. python3 RIDEN.py
+21. python3 RIDEN_SB.py
 
 KAMI JUGA MENYEDIAKAN SEWA VPS & BOT SIRI
 INFO LEBIH LANJUT : ID LINE sirichan_gue
