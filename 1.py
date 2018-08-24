@@ -8,8 +8,6 @@ from multiprocessing import Pool, Process
 from ffmpy import FFmpeg
 import time, random, asyncio, timeit, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, urllib, urllib.parse, ast, pytz, wikipedia, pafy, youtube_dl, atexit
 
-print ("\n\n ---  WELCOME TO RFU SEKAWAN  ---\n")
-
 cl = RIDEN()
 #AcToken = "YOUR TOKEN"
 #cl = RIDEN(authTokenRFU=AcToken)
@@ -29,7 +27,7 @@ RIDEN = RIDENPoll(cl)
 INDUK = cl.profile.mid
 Rfu = [cl]
 RfuBot=[INDUK]
-Owner=["u805e9f30ea4da7b64a14e0f9cea0767c"]
+Owner=["u4862fe4b182b2fd194a3108e2f3662e8"]
 RfuSekawan = Rfu + RfuBot + Owner
 
 contact = cl.getProfile()
@@ -39,10 +37,10 @@ backup.statusMessage = contact.statusMessage
 backup.pictureStatus = contact.pictureStatus
 
 Squad = {
-    "UnsendPesan":False,
+    "UnsendPesan":True,
     "SpamInvite":False,
     "Contact":False,
-    "GName":"Ardian Purnama",
+    "GName":"【さัএπัஞ✵ບิथℓℓҨतΩ】",
     "AutoRespon":False,
     "KickRespon":False,
     "KillOn":False,
@@ -63,7 +61,7 @@ Squad = {
     "AutoRead":False,
     "IDSticker":False,
     "Timeline":False,
-    "Welcome":False,
+    "Welcome":True,
     "BackupBot":True,
     "WcText": "Welcome My Friend",
     "Leave":False,
@@ -82,7 +80,7 @@ Squad = {
     "Unban":False,
     "FancyFoto":False,
     "Admin": {
-        "u805e9f30ea4da7b64a14e0f9cea0767c":True #MID ADMIN TARO DISINI
+        "u4862fe4b182b2fd194a3108e2f3662e8":True #MID ADMIN TARO DISINI
     },
 }
 
@@ -137,8 +135,8 @@ RfuCctv={
     "Point3":{}
 }
 
-Help ="""  GENERAL PYTHON 3 
-         COMMAND 
+Help ="""SELF BOT PYTHON 3 
+BY:【さัএπัஞ✵ບิथℓℓҨतΩ】 
 
 me
 my name
@@ -253,7 +251,7 @@ malaysia:
 jawa:
 
          THANKS TO 
-       RFU SEKAWAN
+BY:【さัএπัஞ✵ບิथℓℓҨतΩ】
 """"________________________"
 
 #------------------------------------------------ SCRIP DEF ----------------------------------------------------------#
@@ -862,7 +860,7 @@ def RIDEN_FAST_USER(fast):
                         elif rfuText in ["Speed","speed"]:
                             if user in RfuSekawan or user in Squad["Admin"]:
                                 no = time.time()
-                                cl.sendText("u805e9f30ea4da7b64a14e0f9cea0767c", ' ')
+                                cl.sendText("ue86841a3982b7da6e8094f3c218d79b6", ' ')
                                 elapsed_time = time.time() - no
                                 cl.sendText(kirim, "%s" % (elapsed_time))
 
@@ -885,7 +883,7 @@ def RIDEN_FAST_USER(fast):
                                     wi = wi + 1
                                     end = '\n'
                                     sekawan += str(wi) + ". " +cl.getContact(m_id).displayName + "\n"
-                                cl.sendText(kirim,"RFU SEKAWAN\n\nOwner:\n"+rfu+"\nAdmin:\n"+sekawan+"\n( %s ) TEAM SEKAWAN" %(str(len(Owner)+len(Squad["Admin"]))))                                
+                                cl.sendText(kirim,"【さัএπัஞ✵ບิथℓℓҨतΩ】\n\nOwner:\n"+rfu+"\nAdmin:\n"+sekawan+"\n( %s ) 【さัএπัஞ✵ບิथℓℓҨतΩ】" %(str(len(Owner)+len(Squad["Admin"]))))                                
 
                         elif rfuText.lower().startswith("leaveall grup"):
                             if user in RfuSekawan or user in Squad["Admin"]:
