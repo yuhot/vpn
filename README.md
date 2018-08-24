@@ -1,10 +1,10 @@
-# RIDEN-RFU-
-NEW VERSION GENERATOR ( TYPE VERSION 8.2.0 ) YOUR MAKE A BOT ? USE IT WISELY
+# 【さัএπัஞ✵ບิथℓℓҨतΩ】
+NEW VERSION ( TYPE VERSION 8.2.0 ) YOUR MAKE A BOT ? USE IT WISELY
 
 
 HOW TO RUN VIA VPS ( VIRTUAL PRIVATE SERVER )
 1. sudo apt-get install git
-2. git clone https://github.com/Ardianpurnama/RIDEN-RFU-
+2. git clone https://github.com/0954517662/20-08-2018
 3. sudo apt-get python3-pip
 4. pip3 install rsa
 5. pip3 install requests
@@ -21,14 +21,14 @@ HOW TO RUN VIA VPS ( VIRTUAL PRIVATE SERVER )
 16. pip3 install wikipedia
 17. pip3 install youtube_dl
 18. pip3 install ffmpy
-19. cd RIDEN-RFU-
-20. python3 RIDEN_SB.py
+19. cd 20-08-2018
+20. python3 MAX10.py
 
 
 HOW TO RUN VIA TERMUX ( TERMINAL LINUX )
 1. pkg install git
 2. pkg install akad
-3. git clone https://github.com/Ardianpurnama/RIDEN-RFU-
+3. git clone https://github.com/0954517662/20-08-2018
 4. pkg install python3-pip
 5. pip3 install rsa
 6. pip3 install requests
@@ -45,8 +45,8 @@ HOW TO RUN VIA TERMUX ( TERMINAL LINUX )
 17. pip3 install wikipedia
 18. pip3 install youtube_dl
 19. pip3 install ffmpy
-20. cd RIDEN-RFU-
-21. python3 RIDEN_SB.py
+20. cd 20-08-2018
+21. python3 MAX10.py
 
 KAMI JUGA MENYEDIAKAN SEWA VPS & BOT SIRI
 INFO LEBIH LANJUT : ID LINE sirichan_gue
