@@ -46,36 +46,6 @@ riden5.log("YOUR TOKEN : {}".format(str(riden5.authToken)))
 channel = RIDENChannel(riden5,riden5.server.CHANNEL_ID['LINE_TIMELINE'])
 riden5.log("CHANNEL TOKEN : " + str(channel.getChannelResult()))
 
-riden6 = RIDEN()
-#riden6 = RIDEN(authTokenRFU="YOUR TOKEN")
-riden6.log("YOUR TOKEN : {}".format(str(riden6.authToken)))
-channel = RIDENChannel(riden6,riden6.server.CHANNEL_ID['LINE_TIMELINE'])
-riden6.log("CHANNEL TOKEN : " + str(channel.getChannelResult()))
-
-riden7 = RIDEN()
-#riden7 = RIDEN(authTokenRFU="YOUR TOKEN")
-riden7.log("YOUR TOKEN : {}".format(str(riden7.authToken)))
-channel = RIDENChannel(riden7,riden7.server.CHANNEL_ID['LINE_TIMELINE'])
-riden7.log("CHANNEL TOKEN : " + str(channel.getChannelResult()))
-
-riden8 = RIDEN()
-#riden8 = RIDEN(authTokenRFU="YOUR TOKEN")
-riden8.log("YOUR TOKEN : {}".format(str(riden8.authToken)))
-channel = RIDENChannel(riden8,riden8.server.CHANNEL_ID['LINE_TIMELINE'])
-riden8.log("CHANNEL TOKEN : " + str(channel.getChannelResult()))
-
-riden9 = RIDEN()
-#riden9 = RIDEN(authTokenRFU="YOUR TOKEN")
-riden9.log("YOUR TOKEN : {}".format(str(riden9.authToken)))
-channel = RIDENChannel(riden9,riden9.server.CHANNEL_ID['LINE_TIMELINE'])
-riden9.log("CHANNEL TOKEN : " + str(channel.getChannelResult()))
-
-riden10 = RIDEN()
-#riden10 = RIDEN(authTokenRFU="YOUR TOKEN")
-riden10.log("YOUR TOKEN : {}".format(str(riden10.authToken)))
-channel = RIDENChannel(riden10,riden10.server.CHANNEL_ID['LINE_TIMELINE'])
-riden10.log("CHANNEL TOKEN : " + str(channel.getChannelResult()))
-
 print ("LOGIN SUCCESS RFU")
 
 clProfile = cl.getProfile()
@@ -89,13 +59,8 @@ JSMID2 = riden2.profile.mid
 JSMID3 = riden3.profile.mid
 JSMID4 = riden4.profile.mid
 JSMID5 = riden5.profile.mid
-JSMID6 = riden6.profile.mid
-JSMID7 = riden7.profile.mid
-JSMID8 = riden8.profile.mid
-JSMID9 = riden9.profile.mid
-JSMID10 = riden10.profile.mid
-RfuBot=[mid,JSMID1,JSMID2,JSMID3,JSMID4,JSMID5,JSMID6,JSMID7,JSMID8,JSMID9,JSMID10]
-Owner=["MID MU TARO DISINI"]
+RfuBot=[mid,JSMID1,JSMID2,JSMID3,JSMID4,JSMID5]
+Owner=["u4862fe4b182b2fd194a3108e2f3662e8"]
 RfuSekawan = RfuBot + Rfu + Owner
 
 contact = cl.getProfile()
@@ -148,8 +113,8 @@ Squad = {
     "Unban":False,
     "AddMention":True,
     "Admin": {
-        "uc721ad1f11fb7e128453ba5a27424998":True,  #TARO MID ADMIN NYA DISINI
-        "u2fd9d66d7006f6dac03dc94950fa83c8":True
+        "u4862fe4b182b2fd194a3108e2f3662e8":True,  #TARO MID ADMIN NYA DISINI
+        "ue1d6a794435130d139f9c5dde19aa9e5":True
     },
 }
 
