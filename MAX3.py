@@ -46,7 +46,7 @@ JSMID1 = riden1.profile.mid
 JSMID2 = riden2.profile.mid
 JSMID3 = riden3.profile.mid
 RfuBot=[mid,JSMID1,JSMID2,JSMID3]
-Owner=["uc721ad1f11fb7e128453ba5a27424998","u2fd9d66d7006f6dac03dc94950fa83c8"]
+Owner=["ue1d6a794435130d139f9c5dde19aa9e5","u4862fe4b182b2fd194a3108e2f3662e8"]
 RfuSekawan = RfuBot + Rfu + Owner
 
 contact = cl.getProfile()
@@ -99,8 +99,8 @@ Squad = {
     "Unban":False,
     "AddMention":True,
     "Admin": {
-        "uc721ad1f11fb7e128453ba5a27424998":True,  #TARO MID ADMIN NYA DISINI
-        "u2fd9d66d7006f6dac03dc94950fa83c8":True
+        "u4862fe4b182b2fd194a3108e2f3662e8":True,  #TARO MID ADMIN NYA DISINI
+        "ue1d6a794435130d139f9c5dde19aa9e5":True
     },
 }
 
