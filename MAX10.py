@@ -9,7 +9,7 @@ from ffmpy import FFmpeg
 import time, random, asyncio, timeit, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, urllib, urllib.parse, ast, pytz, wikipedia, pafy, youtube_dl, atexit
 
 cl = RIDEN()
-#cl = RIDEN(authTokenRFU="")
+#cl = RIDEN(authTokenRFU="EwyXwTEbrfGokoS2Y4v8.sgl/sXGRl9guOXcolZzI6a.PABzl7j4CubRpzzxk5scU1NlRnj2xOGnwM5c/CGFZt8=")
 cl.log("YOUR TOKEN : {}".format(str(cl.authToken)))
 channel = RIDENChannel(cl,cl.server.CHANNEL_ID['LINE_TIMELINE'])
 cl.log("CHANNEL TOKEN : " + str(channel.getChannelResult()))
