@@ -110,7 +110,7 @@ Squad = {
     "AutoRespon":False,
     "KickRespon":False,
     "KillOn":False,
-    "KickOn":False,
+    "KickOn":True,
     "Upfoto":False,
     "UpfotoBot":False,
     "UpfotoGroup":False,
@@ -211,126 +211,127 @@ RfuCctv={
 }
 
 Help ="""SELF BOT PYTHON 3 
-【さัএπัஞ✵ບิथℓℓҨतΩ】 
-
-me
-my name
-my bio
-my picture
-my cover
-my video
-speed
-responsename
-mybot
-my team
-spam on [jmlah teks]
-cekmkd: [mid]
-banlock [@]
-banlist
-contact ban
-ban:on
-unban:on
-clear ban
-blocklist
-friendlist
-friendlist mid
-mid [@]
-profile [@]
-runtime
-broadcast:
-contactbc:
-adminadd [@]
-admindel [@]
-admin:add-on
-admin:del-on
-changename:
-changenameall:
-changebio:
-changebioall:
-remove pesan
-restart
-bot logout
-kick [@]
-status
-allprotect on/off
-backup on/off
-unsend on/off
-changepp on/off
-changeppbot on/off
-timeline on/off
-autojoin on/off
-autoreject on/off
-auto jointicket on/off
-gift:on/off
-copy on/off
-clone [@]
-comeback
-steal on/off
-contact on/off
-mic:add-on
-mic:del-on
-mimic on/off
-mimiclist
-refresh
-___[ GROUP ]___
-Joinall
-Byeall
-leaveall grup
-kick [on,off->kickall]
-invite on/off
-kill on/off
-rejectall grup
-lurking on/off/reset
-lurking read
-sider on/off
-mentionall
-welcome on/off
-changewelcome: [teks]
-leave on/off
-changeleave: [teks]
-memberlist
-link on/off
-my grup
-r1 grup
-r2 grup
-r3 grup
-gurl
-gcreator
-invite gcreator
-ginfo
-grup id
-cfotogrup on/off
-spaminvite on/off
-___[ MEDIA ]____
-topnews
-data birth:
-urban:
-sslink:
-maps:
-cekcuaca:
-jadwalshalat:
-idline:
-say-id:
-say-en:
-say-jp:
-say-ar:
-say-ko:
-apakah:
-kapan:
-wikipedia:
-kalender
-image:
-youtube:
-___[ TRANSLATOR ]___
-indonesian:
-english:
-korea:
-japan:
-thailand:
-arab:
-malaysia:
-jawa:
-
+╔════════════════╗
+╠❂➣【さัএπัஞ✵ບิथℓℓҨतΩ】 
+╠════════════════╝
+╠❂➣ me
+╠❂➣ my name
+╠❂➣ my bio
+╠❂➣ my picture
+╠❂➣ my cover
+╠❂➣ my video
+╠❂➣ speed
+╠❂➣ responsename
+╠❂➣ mybot
+╠❂➣ my team
+╠❂➣ spam on [jmlah teks]
+╠❂➣ cekmkd: [mid]
+╠❂➣ banlock [@]
+╠❂➣ banlist
+╠❂➣ contact ban
+╠❂➣ ban:on
+╠❂➣ unban:on
+╠❂➣ clear ban
+╠❂➣ blocklist
+╠❂➣ friendlist
+╠❂➣ friendlist mid
+╠❂➣ mid [@]
+╠❂➣ profile [@]
+╠❂➣ runtime
+╠❂➣ broadcast:
+╠❂➣ contactbc:
+╠❂➣ adminadd [@]
+╠❂➣ admindel [@]
+╠❂➣ admin:add-on
+╠❂➣ admin:del-on
+╠❂➣ changename:
+╠❂➣ changenameall:
+╠❂➣ changebio:
+╠❂➣ changebioall:
+╠❂➣ remove pesan
+╠❂➣ restart
+╠❂➣ bot logout
+╠❂➣ kick [@]
+╠❂➣ status
+╠❂➣ allprotect on/off
+╠❂➣ backup on/off
+╠❂➣ unsend on/off
+╠❂➣ changepp on/off
+╠❂➣ changeppbot on/off
+╠❂➣ timeline on/off
+╠❂➣ autojoin on/off
+╠❂➣ autoreject on/off
+╠❂➣ auto jointicket on/off
+╠❂➣ gift:on/off
+╠❂➣ copy on/off
+╠❂➣ clone [@]
+╠❂➣ comeback
+╠❂➣ steal on/off
+╠❂➣ contact on/off
+╠❂➣ mic:add-on
+╠❂➣ mic:del-on
+╠❂➣ mimic on/off
+╠❂➣ mimiclist
+╠❂➣ refresh
+╠═[ GROUP ]══
+╠❂➣ Joinall
+╠❂➣ Byeall
+╠❂➣ leaveall grup
+╠❂➣ kick [on,off->kickall]
+╠❂➣ invite on/off
+╠❂➣ kill on/off
+╠❂➣ rejectall grup
+╠❂➣ lurking on/off/reset
+╠❂➣ lurking read
+╠❂➣ sider on/off
+╠❂➣ mentionall
+╠❂➣ welcome on/off
+╠❂➣ changewelcome: [teks]
+╠❂➣ leave on/off
+╠❂➣ changeleave: [teks]
+╠❂➣ memberlist
+╠❂➣ link on/off
+╠❂➣ my grup
+╠❂➣ r1 grup
+╠❂➣ r2 grup
+╠❂➣ r3 grup
+╠❂➣ gurl
+╠❂➣ gcreator
+╠❂➣ invite gcreator
+╠❂➣ ginfo
+╠❂➣ grup id
+╠❂➣ cfotogrup on/off
+╠❂➣ spaminvite on/off
+╠═[ MEDIA ]══
+╠❂➣ topnews
+╠❂➣ data birth:
+╠❂➣ urban:
+╠❂➣ sslink:
+╠❂➣ maps:
+╠❂➣ cekcuaca:
+╠❂➣ jadwalshalat:
+╠❂➣ idline:
+╠❂➣ say-id:
+╠❂➣ say-en:
+╠❂➣ say-jp:
+╠❂➣ say-ar:
+╠❂➣ say-ko:
+╠❂➣ apakah:
+╠❂➣ kapan:
+╠❂➣ wikipedia:
+╠❂➣ kalender
+╠❂➣ image:
+╠❂➣ youtube:
+╠═[ TRANSLATOR ]══
+╠❂➣ indonesian:
+╠❂➣ english:
+╠❂➣ korea:
+╠❂➣ japan:
+╠❂➣ thailand:
+╠❂➣ arab:
+╠❂➣ malaysia:
+╠❂➣ jawa:
+╚════════════════╝
 By:【さัএπัஞ✵ບิथℓℓҨतΩ】
 """"________________________"
 
