@@ -277,7 +277,7 @@ Help ="""SELF BOT PYTHON 3
 ╠❂➣ Joinall
 ╠❂➣ Byeall
 ╠❂➣ leaveall grup
-╠❂➣ kick [on,off->kickall]
+╠❂➣ kick [on,off->ki]
 ╠❂➣ invite on/off
 ╠❂➣ kill on/off
 ╠❂➣ rejectall grup
@@ -292,9 +292,9 @@ Help ="""SELF BOT PYTHON 3
 ╠❂➣ memberlist
 ╠❂➣ link on/off
 ╠❂➣ my grup
-╠❂➣ r1 grup
-╠❂➣ r2 grup
-╠❂➣ r3 grup
+╠❂➣ m1 grup
+╠❂➣ m2 grup
+╠❂➣ m3 grup
 ╠❂➣ gurl
 ╠❂➣ gcreator
 ╠❂➣ invite gcreator
@@ -1547,9 +1547,9 @@ def RIDEN_FAST_USER(fast):
                         for target in targets:
                             try:
                                 cl.sendMessage(target, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58','PRDTYPE': 'THEME','MSGTPL': '12'}, contentType = 9)
-                                riden1.sendMessage(target, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58','PRDTYPE': 'THEME','MSGTPL': '12'}, contentType = 9)
-                                riden2.sendMessage(target, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58','PRDTYPE': 'THEME','MSGTPL': '12'}, contentType = 9)
-                                riden3.sendMessage(target, None, contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58','PRDTYPE': 'THEME','MSGTPL': '12'}, contentType = 9)
+                                riden1.sendMessage(target, None, contentMetadata={'PRDID': 'a99cbfdf-4672-45c5-b558-eb0d2e6ab777','PRDTYPE': 'THEME','MSGTPL': '12'}, contentType = 9)
+                                riden2.sendMessage(target, None, contentMetadata={'PRDID': 'a99cbfdf-4672-45c5-b558-eb0d2e6ab777','PRDTYPE': 'THEME','MSGTPL': '12'}, contentType = 9)
+                                riden3.sendMessage(target, None, contentMetadata={'PRDID': 'a99cbfdf-4672-45c5-b558-eb0d2e6ab777','PRDTYPE': 'THEME','MSGTPL': '12'}, contentType = 9)
                                 Squad['Gift'] = False
                                 break
                             except:             
@@ -1950,11 +1950,11 @@ def RIDEN_FAST_USER(fast):
                                 Squad["KickOn"] = False
                                 cl.sendText(kirim,"Status:\n{''cancel'':0,''kick'':0}")
 
-                        elif rfuText.lower().startswith("kickall"):
+                        elif rfuText.lower().startswith("ki"):
                             if user in RfuSekawan or user in Squad["Admin"]:
                               if msg.toType == 2:
                                 if Squad["KickOn"]:
-                                    _name = msg.text.replace("Kickall","")
+                                    _name = msg.text.replace("Ki","")
                                     gs = cl.getGroup(kirim)
                                     targets = []
                                     for g in gs.members:
@@ -2677,7 +2677,7 @@ def RIDEN_FAST_USER(fast):
                                 ret_ += "\n\nTOTAL {} GRUP JOIN".format(str(len(groups)))
                                 cl.sendText(kirim, str(ret_))
 
-                        elif rfuText.lower() == 'r1 grup':
+                        elif rfuText.lower() == 'm1 grup':
                             if user in RfuSekawan or user in Squad["Admin"]:
                                 groups = riden1.groups
                                 ret_ = "GRUP JOIN"
@@ -2689,7 +2689,7 @@ def RIDEN_FAST_USER(fast):
                                 ret_ += "\n\nTOTAL {} GRUP JOIN".format(str(len(groups)))
                                 riden1.sendText(kirim, str(ret_))
 
-                        elif rfuText.lower() == 'r2 grup':
+                        elif rfuText.lower() == 'm2 grup':
                             if user in RfuSekawan or user in Squad["Admin"]:
                                 groups = riden2.groups
                                 ret_ = "GRUP JOIN"
@@ -2701,7 +2701,7 @@ def RIDEN_FAST_USER(fast):
                                 ret_ += "\n\nTOTAL {} GRUP JOIN".format(str(len(groups)))
                                 riden2.sendText(kirim, str(ret_))
 
-                        elif rfuText.lower() == 'r3 grup':
+                        elif rfuText.lower() == 'm3 grup':
                             if user in RfuSekawan or user in Squad["Admin"]:
                                 groups = riden3.groups
                                 ret_ = "GRUP JOIN"
