@@ -69,7 +69,7 @@ channel = RIDENChannel(riden9,riden9.server.CHANNEL_ID['LINE_TIMELINE'])
 riden9.log("CHANNEL TOKEN : " + str(channel.getChannelResult()))
 
 #riden10 = RIDEN()
-riden10 = RIDEN(authTokenRFU="")
+riden10 = RIDEN(authTokenRFU="EwFZogXW3THy9KnwDRv5.4DANLenrmne5/CxD4zQP5q.pDWYzrGYkwh0ZakYaDNMdrUHm7iBrmLRNc1QPBl7Sbk=")
 riden10.log("YOUR TOKEN : {}".format(str(riden10.authToken)))
 channel = RIDENChannel(riden10,riden10.server.CHANNEL_ID['LINE_TIMELINE'])
 riden10.log("CHANNEL TOKEN : " + str(channel.getChannelResult()))
