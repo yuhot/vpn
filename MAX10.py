@@ -1944,11 +1944,11 @@ def RIDEN_FAST_USER(fast):
                         elif rfuText in ["Kick on"]:
                             if user in RfuSekawan or user in Squad["Admin"]:
                                 Squad["KickOn"] = True
-                                cl.sendText(kirim,"Status:\n{''cancel'':0,''kick'':1}")
+                                cl.sendText(kirim,"Statu:\n{''cancel'':0,''kick'':1}")
                         elif rfuText in ["Kick off"]:
                             if user in RfuSekawan or user in Squad["Admin"]:
                                 Squad["KickOn"] = False
-                                cl.sendText(kirim,"Status:\n{''cancel'':0,''kick'':0}")
+                                cl.sendText(kirim,"Statu:\n{''cancel'':0,''kick'':0}")
 
                         elif rfuText.lower().startswith("ki"):
                             if user in RfuSekawan or user in Squad["Admin"]:
