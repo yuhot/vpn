@@ -250,7 +250,7 @@ Help ="""SELF BOT PYTHON 3
 ╠❂➣ refresh
 ╠═[ GROUP ]══
 ╠❂➣ Join
-╠❂➣ Byea
+╠❂➣ Bye
 ╠❂➣ leaveall grup
 ╠❂➣ kick [on,off->ki]
 ╠❂➣ invite on/off
@@ -1584,7 +1584,7 @@ def RIDEN_FAST_USER(fast):
                                 team4 = riden4.getContact(JSMID4).displayName
                                 team5 = riden5.getContact(JSMID5).displayName
                                 team6 = riden6.getContact(JSMID6).displayName                                
-                                owner = "uc721ad1f11fb7e128453ba5a27424998"
+                                owner = "u4862fe4b182b2fd194a3108e2f3662e8"
                                 cl.mentionWithRFU(kirim,owner," Ready On ","" + str(" ("+team+")"))
                                 riden1.mentionWithRFU(kirim,owner," Ready On ","" + str(" ("+team1+")"))
                                 riden2.mentionWithRFU(kirim,owner," Ready On ","" + str(" ("+team2+")"))
@@ -1617,7 +1617,7 @@ def RIDEN_FAST_USER(fast):
                                     wi = wi + 1
                                     end = '\n'
                                     sekawan += str(wi) + ". " +cl.getContact(m_id).displayName + "\n"
-                                cl.sendText(kirim,"RFU SEKAWAN\n\nOwner:\n"+rfu+"\nAdmin:\n"+sekawan+"\n( %s ) TEAM SEKAWAN" %(str(len(Owner)+len(Squad["Admin"]))))                                
+                                cl.sendText(kirim,"【さัএπัஞ✵ບิथℓℓҨतΩ】\n\nOwner:\n"+rfu+"\nAdmin:\n"+sekawan+"\n( %s )【さัএπัஞ✵ບิथℓℓҨतΩ】" %(str(len(Owner)+len(Squad["Admin"]))))                                
 
                         elif rfuText.lower() == "join":
                             if user in RfuSekawan or user in Squad["Admin"] or user in Squad["Owner"]:
@@ -1649,7 +1649,7 @@ def RIDEN_FAST_USER(fast):
                                 riden3.leaveGroup(kirim)
                                 riden2.leaveGroup(kirim)
                                 riden1.leaveGroup(kirim)
-                                cl.leaveGroup(kirim)
+                                #cl.leaveGroup(kirim)
 
                         elif rfuText.lower() == "leaveall grup":
                             if user in RfuSekawan or user in Squad["Admin"] or user in Squad["Owner"]:
@@ -1661,7 +1661,7 @@ def RIDEN_FAST_USER(fast):
                                 gid = riden5.getGroupIdsJoined()
                                 gid = riden6.getGroupIdsJoined()                                
                                 for i in gid:
-                                    cl.leaveGroup(i)
+                             #       cl.leaveGroup(i)
                                     riden1.leaveGroup(i)
                                     riden2.leaveGroup(i)
                                     riden3.leaveGroup(i)                                    
@@ -2170,7 +2170,7 @@ def RIDEN_FAST_USER(fast):
                             if user in RfuSekawan or user in Squad["Admin"]:
                                 bc = msg.text.replace("broadcast: ","")
                                 gid = cl.getGroupIdsJoined()
-                                owner = "uc721ad1f11fb7e128453ba5a27424998"
+                                owner = "u4862fe4b182b2fd194a3108e2f3662e8"
                                 for i in gid:
                                     cl.mentionWithRFU(i,owner," BROADCAST BY:","\n" + str(" ("+bc+")"))
 
@@ -2178,7 +2178,7 @@ def RIDEN_FAST_USER(fast):
                             if user in RfuSekawan or user in Squad["Admin"]:
                                 bc = msg.text.replace("contactbc: ","")
                                 gid = cl.getAllContactIds()
-                                owner = "uc721ad1f11fb7e128453ba5a27424998"
+                                owner = "u4862fe4b182b2fd194a3108e2f3662e8"
                                 for i in gid:
                                     cl.mentionWithRFU(i,owner," BROADCAST BY:","\n" + str(" ("+bc+")"))
 
@@ -2257,7 +2257,7 @@ def RIDEN_FAST_USER(fast):
                                 cll = cl.getProfile()
                                 cll.displayName = change
                                 cl.updateProfile(cll)
-                                owner = "uc721ad1f11fb7e128453ba5a27424998"
+                                owner = "u4862fe4b182b2fd194a3108e2f3662e8"
                                 cl.mentionWithRFU(kirim,owner," Update Name Success","\n Change to " + str(change))
 
                         elif rfuText.lower().startswith("changebio: "):
@@ -2346,7 +2346,7 @@ def RIDEN_FAST_USER(fast):
                                     riden5.removeAllMessages(fast.param2)
                                     riden6.removeAllMessages(fast.param2)                                    
                                     ginfo = cl.getGroup(kirim)
-                                    owner = "uc721ad1f11fb7e128453ba5a27424998"
+                                    owner = "u4862fe4b182b2fd194a3108e2f3662e8"
                                     cl.mentionWithRFU(kirim,owner," Remove Message Success ","\n In Grup" + str(" ("+ginfo.name+")"))
                                     riden1.mentionWithRFU(kirim,owner," Remove Message Success ","\n In Grup" + str(" ("+ginfo.name+")"))
                                     riden2.mentionWithRFU(kirim,owner," Remove Message Success ","\n In Grup" + str(" ("+ginfo.name+")"))
